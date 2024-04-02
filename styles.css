@@ -25,11 +25,12 @@
     font-size: 24px;
     color: #F9FAF8; 
     font-weight: bold;
+    align-self: center;
 }
 
 .right ul {
     display: flex;
-    gap: 18px; 
+    gap: 30px; 
     
 }
 
@@ -37,20 +38,25 @@
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
-    font-weight: light;
+    font-weight: 100;
+   align-self: center;
     
 }
 
 /*HEADER / NAV END*/
 
 
+/*HERO START*/
 
 .hero {
     background-color: #1F2937;
     padding-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     display: flex;   
     justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .left2 {
@@ -61,24 +67,26 @@
 
 .right2 {
     display: flex;
+    align-self: center;
 }
 
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 10px;
+    padding-bottom: 20px;
+    
     
 }
 
-.button1 {
-    margin: 5px;
+p {
+    font-weight: 100;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
-    
+    padding-bottom: 20px;
 }
 
 .signup1 {
@@ -88,7 +96,100 @@ h1 {
     color: white;
     padding: 8px 24px;
     font-weight: bold;
-    
+}
+
+
+/*HERO START*/
+
+/*RANDOM INFO SECTION START*/
+
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/*RANDOM INFO SECTION START*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    margin: 20px;
+    max-width: 200px;
+    min-height: 200px;
+    padding: 5px;
+}
+
+h2 {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: center;
+}
+/*RANDOM INFO SECTION END*/
+
+
+/*QUOTE SECTION START*/
+.quote {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+/*QUOTE SECTION END*/
+
+
+/*CTA SECTION START*/
+
+.cta {
+    padding: 100px;
+    display: flex;   
+    justify-content: space-around;
+    color: white;
+   
+}
+
+.cta-card {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+.cta-header {
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.cta-left {
+    padding: 30px;
+}
+
+.cta-right {
+    padding: 30px;
 }
 
 .signup2 {
@@ -101,35 +202,11 @@ h1 {
 }
 
 
-img {
-    border: 1px;
-    border-style: solid;
-    width: 200px;
-    height: 200px;
-}
+/*CTA SECTION END*/
 
-.cta {
-    background-color: #3882F6;
-}
-
-
-h2 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #1F2937;
-}
-
-.quote {
-    background-color: #E5E7EB;
-}
-
-.quote p {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    font-weight: 300;
-}
 
 footer {
     background-color: #1F2937;
 }
+
+/*FOOTER SECTION END*/
