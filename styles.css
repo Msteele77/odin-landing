@@ -5,7 +5,6 @@
 }
 
 /*HEADER / NAV START*/
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -38,15 +37,11 @@
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
-   align-self: center;
-    
+    align-self: center;
 }
-
 /*HEADER / NAV END*/
 
-
 /*HERO START*/
-
 .hero {
     background-color: #1F2937;
     padding-top: 80px;
@@ -54,8 +49,7 @@
     display: flex;   
     justify-content: space-around;
     padding-left: 30px;
-    padding-right: 30px;
-    
+    padding-right: 30px;   
 }
 
 .left2 {
@@ -73,8 +67,6 @@
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 20px;
-    
-    
 }
 
 p {
@@ -96,21 +88,13 @@ h1 {
     padding: 8px 24px;
     font-weight: bold;
 }
-
-
-/*HERO START*/
+/*HERO END*/
 
 /*RANDOM INFO SECTION START*/
-
-
-
-
 img {
     width: 200px;
     height: 200px;
 }
-
-/*RANDOM INFO SECTION START*/
 
 main {
     display: flex;
@@ -120,9 +104,9 @@ main {
 
 .container {
     display: flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -161,13 +145,12 @@ h2 {
 
 
 /*CTA SECTION START*/
-
 .cta {
     padding: 100px;
     display: flex;   
     justify-content: space-around;
     color: white;
-   
+    align-items: center;
 }
 
 .cta-card {
@@ -175,6 +158,7 @@ h2 {
     justify-content: space-between;
     border-radius: 8px;
     background-color: #3882F6;
+    align-items: center;
 }
 
 .cta-header {
@@ -183,11 +167,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-.cta-left {
-    padding: 30px;
-}
-
-.cta-right {
+.cta-left, .cta-right {
     padding: 30px;
 }
 
@@ -199,15 +179,11 @@ h2 {
     background-color: #3882F6;
     font-weight: bold;
 }
-
-
 /*CTA SECTION END*/
 
 
 
 /*FOOTER SECTION START*/
-
-
 footer {
     background-color: #1F2937;
     color: white;
@@ -217,5 +193,4 @@ footer {
     padding: 20px;
     font-size: 16px;
 }
-
 /*FOOTER SECTION END*/
